@@ -1,0 +1,15 @@
+.personal-links{
+    margin-right: 1rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.personal-links__links{
+       text-align: center;
+       color: var(--azul-azul);
+        text-decoration: none;
+        
+}
+.personal-links__links:hover{
+    text-decoration: underline;
+}
+

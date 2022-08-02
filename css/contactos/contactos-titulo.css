@@ -1,0 +1,84 @@
+.contactame {
+    font-family: var(--pacifico);
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+     padding: 4rem;  
+     text-decoration: underline;
+  }
+  .label, .description {
+    color: var(--azul-azul);
+    font-size: 0.8rem;
+    background: var(--blanqui);
+    color: var(--azul-azul);
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    align-items: center;
+    margin-left: 0.6rem;  
+  }
+  .enviar{
+    background: var(--azul-azul);
+    border-radius: 10%;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 1rem; 
+    border: none;
+    align-items: center;
+    margin-left: 0.6rem;  
+  }
+  
+  form {
+    width: 31.25rem;
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+  
+  input, textarea, .label {
+    width: 40vw;
+    display: block;
+  }
+  
+  p, input, textarea, placeholder{
+    font-family: var(--roboto);
+    margin-left: 0.6rem;  
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: var(--gris-claro);
+  }
+  
+  input, textarea {
+    color: var(--violeta);
+    font-weight: 500;
+    background: var(--blanqui);
+    border: none;
+    border-bottom: 1px solid var(--gris-claro);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  #error, #success-msg {
+    width: 40vw;
+    margin: 0.125rem 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    color: var(--negro);
+    font-weight: 700;
+    margin-left: 45rem;
+    
+    }
+    #success-msg {
+    transition-delay: 3s;
+    }

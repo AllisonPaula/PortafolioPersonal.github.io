@@ -1,0 +1,17 @@
+.head__link{
+    color: var(--negro);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    font-size: 0.8rem;
+
+}
+
+.head__link.activo{
+    color: var( --azul-oscuro);
+    font-weight: bold;
+}
+.head__link:hover{
+    text-decoration: underline;
+}

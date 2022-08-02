@@ -1,0 +1,9 @@
+.soft{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.soft-hability{
+    background: var(--blanco);
+    padding: 2rem;
+}

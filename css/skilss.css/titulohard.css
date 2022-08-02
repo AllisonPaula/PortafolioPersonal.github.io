@@ -1,0 +1,21 @@
+.skills__titulo{
+    font-family: var(--pacifico);
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5rem;
+    text-decoration: underline;
+    
+}
+.skills-hard__nombre{
+    color: var(--azul-azul);
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+      
+}
+    

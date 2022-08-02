@@ -1,0 +1,22 @@
+:root {
+    /*Las -- son para definir una variable en CSS*/
+        --violeta: #C8A2D9;
+        --amarillo: #fdfd95;
+        --azul-claro: #B6DDE4;
+        --azul-ceniza: #93CBE6;
+        --rosita:#DEC8DD;
+        --negro:#000000;
+        --morado:#690F8E;
+        --gris-claro:#666666;
+        --gris-oscuro:#4F4C4C;
+        --azul-azul: #103D4A;
+        --blanco:#ffffff;
+        --casi-blanco:#b6cdd8;
+        --otro-violeta:#c3b8ce;
+         --blanqui: #FCFDFD;
+
+        --pacifico:'Pacifico',cursive;
+        --roboto:'Roboto',sans-serif;
+    }
+    
+    

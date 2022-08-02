@@ -1,0 +1,10 @@
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.proyectos-primeros{
+    background: var(--violeta);
+    padding: 3rem;
+}

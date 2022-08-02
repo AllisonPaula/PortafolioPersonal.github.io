@@ -1,0 +1,11 @@
+.person__imagen{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+}
+.persona__imagen--allis{
+    background-image: url("../../imagenes-portafolio/avatar.svg");
+}

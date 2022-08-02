@@ -1,0 +1,9 @@
+.imagen__correo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin-right: 15rem;
+}

@@ -1,0 +1,8 @@
+.quien-soy__titulo{
+    margin-bottom: 1rem;
+    color: var(--azul-azul);
+    font-size:2.1875rem;
+    font-family: var(--pacifico);
+    text-align: left;
+    font-weight: 300;
+}

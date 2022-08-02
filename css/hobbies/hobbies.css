@@ -1,0 +1,6 @@
+.hobbies{
+    background: var(--violeta);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

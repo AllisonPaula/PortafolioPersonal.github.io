@@ -5,21 +5,5 @@
     justify-content: space-around;
     align-items: center;
 }
-@media screen and (min-width:0){
-    .formacion{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    }
-@media screen and (min-width:768px) {
-   .formacion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    }   
-}
+
 

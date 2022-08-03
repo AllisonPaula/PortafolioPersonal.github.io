@@ -8,21 +8,5 @@
     background: var(--violeta);
     padding: 3rem;
 }
-@media screen and (min-width:0){
-    .proyectos{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    }
- 
-@media screen and (min-width:768px) {
-   .proyectos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }   
-}
+
 

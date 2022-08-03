@@ -6,13 +6,3 @@
     text-transform: uppercase;
 }
 
-@media screen and (min-width:0){
-    .head__nombre{
-    display: none;
-    }
- }
-@media screen and (min-width:768px) {
-    .head__nombre{
-        display: block ;
-    }   
-}

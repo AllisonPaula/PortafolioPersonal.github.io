@@ -6,14 +6,3 @@
     text-align: left;
     padding: 2rem;
 }
-@media screen and (min-width:0){
-    .sobre-mi__descripcion{
-      font-size: 1.2rem;
-    }
-    }
- 
-@media screen and (min-width:768px) {
-    .sobre-mi__descripcion{
-        font-size: 1.3rem;
-    }   
-}

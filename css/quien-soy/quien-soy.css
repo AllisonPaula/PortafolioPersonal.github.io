@@ -6,13 +6,3 @@
     flex-direction: column;
     justify-content: space-around;
 }
-@media screen and (min-width:0) {
-    .quien-soy{
-       justify-content: center;
-    } 
-}
-@media screen and (min-width:768px) {
-    .quien-soy{
-       
-    } 
-}

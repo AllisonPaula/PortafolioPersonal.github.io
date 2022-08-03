@@ -18,15 +18,4 @@
     text-transform: capitalize;
     padding: 1rem;    
 }
-@media screen and (min-width:0) {
-    .formacion-forma___nombre{
-       font-size:1.3rem ;
-       align-items: flex-start;
-    
-    }
-    @media screen and (min-width:768px) {
-        .formacion-forma___nombre{
-            font-size: 2rem;
-        }  
-    }   
-}
+

@@ -6,3 +6,13 @@
     text-align: left;
     font-weight: 300;
 }
+@media screen and(min-width:0) {
+    .quien-soy__titulo{
+        font-size: 2rem;
+    }
+}
+@media screen and(min-width:768px) {
+    .quien-soy__titulo{
+        font-size: 2rem;
+    }
+}

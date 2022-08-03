@@ -3,3 +3,17 @@
     width: 100px;
     padding: 1rem;
 }
+
+@media screen and (min-width:0){
+    .skills-hard__same--imagen{
+      height: 110px;
+      width: 110px;
+    }
+    }
+ 
+@media screen and (min-width:768px) {
+   .skills-hard__same--imagen{
+    height: 100px;
+    width: 100px;
+    }   
+}

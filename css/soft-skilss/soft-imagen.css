@@ -4,3 +4,16 @@
     padding: 1.5rem;
     margin-left: 0.2rem;
 }
+@media screen and (min-width:0){
+    .hability-soft__same--imagen{
+      height: 130px;
+      width: 130px;
+    }
+    }
+ 
+@media screen and (min-width:768px) {
+   .hability-soft__same--imagen{
+    height: 130px;
+    width: 130px;
+    }   
+}

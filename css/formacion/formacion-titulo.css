@@ -12,10 +12,21 @@
     color: var(--azul-azul);
     font-family: var(--roboto);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: 1.6rem;
     text-align: center;
     text-transform: capitalize;
-    padding: 1rem;
-      
+    padding: 1rem;    
+}
+@media screen and (min-width:0) {
+    .formacion-forma___nombre{
+       font-size:1.3rem ;
+       align-items: flex-start;
+    
+    }
+    @media screen and (min-width:768px) {
+        .formacion-forma___nombre{
+            font-size: 2rem;
+        }  
+    }   
 }

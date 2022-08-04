@@ -42,6 +42,8 @@
     <link href="css/contactos/contactos-titulo.css" rel="stylesheet">
     <link href="css/contactos/contactos.css" rel="stylesheet">
     <link href="css/contactos/contactos-imagen.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -49,17 +51,19 @@
         <h6 class="head__nombre">&#10045 Allison Paula &#10045</h6>
         <nav>
             <ul class="head__lista">
-                <li class="head__item"><a class="head__link activo" href="#">Sobre mí</a></li>
-                <li class="head__item"><a class="head__link" href="#sec1">Skills</a></li>
-                <li class="head__item"><a class="head__link" href="#sec2">Hobbies</a></li>
-                <li class="head__item"><a class="head__link" href="#sec3">Formación</a></li>
-                <li class="head__item"><a class="head__link" href="#sec3">Proyectos</a></li>
-                <li class="head__item"><a class="head__link" href="#sec5">Contactos</a></li>
+                <li class="head__item"><a class="head__link activo" href="#sobre-mi">Sobre mí</a></li>
+                <li class="head__item"><a class="head__link" href="#habiskills">Skills</a></li>
+                <li class="head__item"><a class="head__link" href="#free-hobbies">Hobbies</a></li>
+                <li class="head__item"><a class="head__link" href="#formacion-estudios">Formación</a></li>
+                <li class="head__item"><a class="head__link" href="#proyectos-primeros">Proyectos</a></li>
+                <li class="head__item"><a class="head__link" href="#general-contactame">Contactos</a></li>
             </ul>
         </nav>
     </header>
+    
     <section class="quien-soy">
-        <div class="separar">
+        <div class="container reveal">
+             <div class="separar">
             <div class="quien-soy__arriba">
                 <h3 class="quien-soy__titulo">Yo soy Allison Paula y construyo páginas web.</h3>
                 <p class="quien-soy__descripcion">Estudio Desarrollo de Software.</br> actualmente participo del
@@ -75,15 +79,19 @@
             <a class="personal-links__links" href="#" title=”título del enlace”>Currículum</a>
         </div>
     </section>
-    <section class="sobre-mi">
+    <section id="sobre-mi">
         <div class="sobre-mi__titulo"> Sobre mí</div>
-        <p class="sobre-mi__descripcion">Me encanta aprender cosas nuevas, por ello soy autodidacta. </br>Para mí la
-            responsabilidad y disciplina son muy importantes; me caracterizo por ser un buen líder, </br>trabajar en
-            equipo, tener capacidad de organización, y productividad.</br>Busco oportunidades para poner en práctica mis
+        <p class="sobre-mi__descripcion">Me encanta aprender cosas nuevas, por ello soy autodidacta. Para mí la
+            responsabilidad y disciplina son muy importantes; me caracterizo por ser un buen líder, trabajar en
+            equipo, tener capacidad de organización y productividad. Busco oportunidades para poner en práctica mis
             conocimientos en el área de la tecnología.</p>
+        </div>
     </section>
-    <section class="skills-hard">
-        <h3 class="skills__titulo">Hard Skills</h3>
+
+    <section id="habiskills">
+    <main class="skills-hard">
+        <div class="container reveal">
+             <h3 class="skills__titulo">Hard Skills</h3>
         <div class="skills">
             <div class="skills-hard__same">
                 <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo html.svg" alt="Logo de html" />
@@ -131,9 +139,11 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="soft-hability">
-        <h3 class="soft__titulo">Soft Skills</h3>
+        </div>
+    </main>
+    <main class="soft-hability">
+        <div class="container reveal">
+              <h3 class="soft__titulo">Soft Skills</h3>
         <div class="soft">
             <div class="hability-soft__same">
                 <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Trabajo en equipo.svg"
@@ -183,9 +193,13 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="free-hobbies">
-        <h3 class="hobbies__titulo">Hobbies</h3>
+        </div>
+    </main>
+</section>
+
+    <section id="free-hobbies">
+        <div class="container reveal">
+                  <h3 class="hobbies__titulo">Hobbies</h3>
         <div class="hobbies">
             <div class="hobbies-hobbi__same">
                 <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Leer.svg" alt="Leer" />
@@ -222,85 +236,93 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <section class="formacion-estudios">
+
+    <section id="formacion-estudios">
+        <div class="container reveal">
         <h3 class="formacion__titulo">Formación</h3>
         <div class="formacion">
             <div class="formacion-formado__same">
                 <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/itla2.jpg"
                     alt="Logo de ITLA" />
                 <div class="formacion-forma___nombre">
-                    <h4> Instituto Tecnológico</br>de las ámericas.</h4>
-                    <p >&#10045 Desarrollo de software</p>
-                    <h5>En curso</h5>
+                    <h4> -Instituto Tecnológico</br>de las Ámericas</h4>
+                    <p > -Desarrollo de Software</p>
+                    <h5>-septiembre 2022</h5>
+                </div>
+            </div>
+             <div class="formacion-formado__same">
+                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/logo de alura.svg"
+                    alt="Logo de alura" />
+                <div class="formacion-forma___nombre">
+                    <h4>-Alura Latam</h4>
+                    <p> -Desarrollador Frontend</p>
+                    <h5> -marzo 2022/En curso</h5>
+                </div>
+            </div>
+             <div class="formacion-formado__same">
+                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/Capacitate-para-el-empleo.jpg"
+                    alt="Logo de capacitate para el emplelo" />
+                <div class="formacion-forma___nombre">
+                    <h4>-Capacítate para el empleo</h4>
+                    <p>-Introducción a la Programación</p>
+                    <h5>-noviembre 2021/marzo 2022</h5>
                 </div>
             </div>
             <div class="formacion-formado__same">
                 <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/LOGO UASD.jpeg"
                     alt="Logo de la UASD" />
                 <div class="formacion-forma___nombre">
-                    <h4> Universidad Autónoma</br>de Santo Domingo</h4>
-                    <p>&#10045 Licenciatura en Informática</p>
-                    <h5>Septiembre 2021-En curso</h5>
-                </div>
-            </div>
-
-            <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/Capacitate-para-el-empleo.jpg"
-                    alt="Logo de capacitate para el emplelo" />
-                <div class="formacion-forma___nombre">
-                    <h4>Capacítate para el empleo</h4>
-                    <p>&#10045 Introducción a la programación</p>
-                    <h5>Noviembre 2021-Marzo 2022</h5>
-                </div>
-            </div>
-            <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/logo de alura.svg"
-                    alt="Logo de alura" />
-                <div class="formacion-forma___nombre">
-                    <h4>Alura Latam</h4>
-                    <p>&#10045 Desarrollador Frontend</p>
-                    <h5> Marzo 2022-En curso</h5>
+                    <h4> -Universidad Autónoma</br>de Santo Domingo</h4>
+                    <p>-Licenciatura en Informática</p>
+                    <h5>-septiembre 2021/En curso</h5>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <section class="proyectos-primeros">
+
+    <section id="proyectos-primeros">
+        <div class="container reveal">
         <h3 class="proyectos__titulo">Proyectos</h3>
         <div class="proyectos">
             <div class="proyecto-proyecto__same">
                     <h4 class="proyectos-proyecto___nombre"> Encriptador De Texto</h4>
-                     <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/encriptadorcodificado.webp" />
+                     <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/Encriptador.jpeg" />
                     <nav>
                         <ul class="proyecto__lista">
-                            <li class="head__item"><a class="head__link activo" href="https://allisonpaula.github.io/">Ver demo</a></li>
-                            <li class="head__item"><a class="head__link activo" href="https://github.com/AllisonPaula/AllisonPaula.github.io.git">Ir a repositorio</a></li>
+                            <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/">Ver demo</a></li>
+                            <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/AllisonPaula.github.io.git">Ir a repositorio</a></li>
                         </ul>
                     </nav>  
             </div>
         <div class="proyecto-proyecto__same">
                 <h4 class="proyectos-proyecto___nombre">Juego del ahorcado</h4>
-            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/hangman.gif" alt="Juego del ahorcado" />
+            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/El ahorcado.jpeg" alt="Juego del ahorcado" />
             <nav>
                 <ul class="proyecto__lista">
-                    <li class="head__item"><a class="head__link activo" href="https://allisonpaula.github.io/allisonspaula.github.io/">Ver demo</a></li>
-                    <li class="head__item"><a class="head__link activo" href="https://github.com/AllisonPaula/allisonspaula.github.io.git">Ir a repositorio</a></li>
+                    <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/allisonspaula.github.io/">Ver demo</a></li>
+                    <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/allisonspaula.github.io.git">Ir a repositorio</a></li>
                 </ul>
             </nav>  
         </div>
         <div class="proyecto-proyecto__same">
                 <h4  class= "proyectos-proyecto___nombre">Portafolio Personal</h4>
-            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/Portafolio personal.jpg" alt="Portafilio personal" />
+            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/Portafolio1.jpeg" alt="Portafilio personal" />
             <nav>
                 <ul class="proyecto__lista">
-                    <li class="head__item"><a class="head__link activo" href="https://allisonpaula.github.io/allisPaula.github.io/">Ver demo</a></li>
-                    <li class="head__item"><a class="head__link activo" href="https://github.com/AllisonPaula/allisPaula.github.io.git">Ir a repositorio</a></li>
+                    <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/allisPaula.github.io/">Ver demo</a></li>
+                    <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/allisPaula.github.io.git">Ir a repositorio</a></li>
                 </ul>
             </nav>  
         </div>
         </div>
+        </div>
     </section>
-    <section class="general-contactame">
+
+    <section id="general-contactame">
+        <div class="container reveal">
         <h3 class="contactame">Contáctame</h3>
         <div class="general">
             <div class="imagen__correo">
@@ -320,6 +342,11 @@
         </div>
         </div>
         </div>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
         <script src="script.js"></script>
+       
 </body>
 </html>

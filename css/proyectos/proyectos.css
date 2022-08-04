@@ -3,10 +3,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
 }
-.proyectos-primeros{
+#proyectos-primeros{
     background: var(--violeta);
     padding: 3rem;
+
 }
 
 

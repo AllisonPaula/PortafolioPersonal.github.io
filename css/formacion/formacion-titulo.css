@@ -1,21 +1,18 @@
-.formacion__titulo{
+.formacion__titulo {
     background: var(--blanco);
     font-family: var(--pacifico);
     font-weight: 300;
     font-size: 2rem;
-    text-align: center;
     padding: 5rem;
-    text-decoration: underline;
-    
-}
-.formacion-forma___nombre{
-    color: var(--azul-azul);
-    font-family: var(--roboto);
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin-left: 1.6rem;
     text-align: center;
-    text-transform: capitalize;
-    padding: 1rem;    
+    text-decoration: underline;
 }
 
+.formacion-forma___nombre {
+    color: var(--azul-azul);
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+}

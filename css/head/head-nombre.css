@@ -1,8 +1,8 @@
-.head__nombre{
-    font-family: var( --roboto);
-    font-weight: 300;
-    font-size: 0.9rem;
+.head__nombre {
     color: var(--negro);
+    font-family: var(--roboto);
+    font-size: 0.9rem;
+    font-weight: 300;
     text-transform: uppercase;
 }
 

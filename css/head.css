@@ -1,10 +1,30 @@
-.cabecera{
-    align-items: center;
-    background: var(--blanco);
-    justify-content: space-between;
-    display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding: 1rem;
-    margin-top: 1rem;
+.cabecera {
+  align-items: center;
+  background: var(--blanco);
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  border-bottom: 1px solid var(--violeta);
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header nav a {
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+}
+
+header nav a:hover,
+header nav a.active {
+  background: var(--violeta);
+  letter-spacing: 2px;
+  transition: 0.5s ease-out;
 }

@@ -2,8 +2,9 @@
     background: var(--blanco);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2rem;
 }
 
 

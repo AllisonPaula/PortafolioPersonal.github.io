@@ -1,19 +1,20 @@
-.proyectos__titulo{
+.proyectos__titulo {
     font-family: var(--pacifico);
     font-weight: 300;
     font-size: 2rem;
+    padding: 4rem;
     text-align: center;
-    padding: 4rem;  
     text-decoration: underline;
 }
-.proyectos-proyecto___nombre{
+
+.proyectos-proyecto___nombre {
     background: var(--);
     color: var(--azul-azul);
     font-family: var(--roboto);
     font-weight: 700;
     font-size: 1.2rem;
+    margin-left: 0.6rem;
+    padding: 1rem;
     text-align: center;
     text-transform: capitalize;
-    margin-left: 0.6rem;
-    padding: 1rem;  
 }

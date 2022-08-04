@@ -1,9 +1,9 @@
-.quien-soy__descripcion{
-    font-weight:300;
-    font-size: 1.5rem;
+.quien-soy__descripcion {
     color: var(--gris-oscuro);
+    font-family: var(--roboto);
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 2rem;
     text-align: left;
     text-transform: capitalize;
-    padding: 2rem;
-    font-family: var(--roboto);
 }

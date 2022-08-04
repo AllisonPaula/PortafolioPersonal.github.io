@@ -1,6 +1,7 @@
-.sobre-mi{
+#sobre-mi {
     background: var(--violeta);
-    padding: 2rem;
+    margin: auto;
     margin-bottom: 1rem;
-    text-align:left;
+    padding: 3rem;
+    text-align: left;
 }

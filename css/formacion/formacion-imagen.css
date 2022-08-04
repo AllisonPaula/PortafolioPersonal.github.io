@@ -1,8 +1,7 @@
-.formacion-formado___same--imagen{
+.formacion-formado___same--imagen {
+    background: var(--blanco);
     height: 140px;
-    width: 140px;
-    padding: 1rem;
     margin-left: 4.3rem;
- 
+    padding: 1rem;
+    width: 140px;
 }
-

@@ -1,5 +1,4 @@
 .formacion__titulo {
-    background: var(--blanco);
     font-family: var(--pacifico);
     font-weight: 300;
     font-size: 2rem;
@@ -9,10 +8,12 @@
 }
 
 .formacion-forma___nombre {
-    color: var(--azul-azul);
+    align-items: center;
+    color: var(--negro);
     font-family: var(--roboto);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 700;
     padding: 1rem;
-    text-align: center;
+    
+    
 }

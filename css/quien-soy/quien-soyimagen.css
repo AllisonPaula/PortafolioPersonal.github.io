@@ -1,13 +1,15 @@
-.persona__imagen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 100%;
-    height: 350px;
+.persona-imagen {
+    height: 300px;
     margin-top: 5rem;
-    width: 350px;
+    width: 300px;
+    text-align: center;
 }
 
-.persona__imagen--allison {
-    background-image: url("../../imagenes-portafolio/Avatar.svg");
+
+@media screen and (max-width:600px){
+    .persona__imagen{
+        height: 200px;
+        width: 200px;
+      
+    }
 }

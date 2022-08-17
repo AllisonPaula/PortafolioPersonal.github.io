@@ -1,9 +1,16 @@
 .quien-soy__descripcion {
     color: var(--gris-oscuro);
     font-family: var(--roboto);
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 2rem;
-    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    text-align: center;
     text-transform: capitalize;
+}
+@media screen and (max-width:600px)
+{
+    .quien-soy__descripcion{
+        font-size: 0.9rem;
+        text-align: end;
+    }
 }

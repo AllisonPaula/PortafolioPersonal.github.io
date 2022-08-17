@@ -1,4 +1,17 @@
 footer{
-    padding: 3rem;
-    
+    background: var(--violeta-mc);
+    padding: 2rem;
+    text-align: center; 
+}
+.footer-derecho{
+color: var(--gris-oscuro);
+ font-size: 0.7rem;
+}
+.footer-link{
+    color: var(--negro);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
 }

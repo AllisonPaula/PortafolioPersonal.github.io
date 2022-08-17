@@ -16,6 +16,6 @@
 }
 
 .proyecto__link:hover {
-    color: var(--gris-oscuro);
+    color: var(--verde-mc);
     text-decoration: underline;
 }

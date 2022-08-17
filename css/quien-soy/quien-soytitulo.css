@@ -1,8 +1,15 @@
 .quien-soy__titulo {
-    color: var(--azul-azul);
+    color: var(--violeta-mc);
     font-family: var(--pacifico);
     font-size: 2.1875rem;
     font-weight: 300;
-    margin-bottom: 1rem;
-    text-align: left;
+    padding:2rem;
+    text-align: center;
+}
+@media screen and (max-width:600px)
+{
+    .quien-soy__titulo{
+        font-size: 1rem;
+        text-align: end;
+    }
 }

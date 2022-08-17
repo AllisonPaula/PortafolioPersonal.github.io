@@ -4,6 +4,7 @@
     padding-bottom: 1rem;
     text-transform: capitalize;
     word-spacing: 0.8rem;
+   
 }
 
 .personal-links__links {
@@ -15,3 +16,4 @@
 .personal-links__links:hover {
     text-decoration: underline;
 }
+

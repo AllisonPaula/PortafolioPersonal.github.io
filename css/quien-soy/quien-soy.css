@@ -1,9 +1,13 @@
 .quien-soy {
-    background: var(--blanco);
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: auto;
-    padding: 1rem;
+    flex-direction: row;
+    margin: 5rem;
     text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width:600px){
+ .quien-soy{
+ display: block;
+ }    
 }

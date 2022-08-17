@@ -9,10 +9,11 @@
     <link href="reset.css/reset.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link href="css/bases.css" rel="stylesheet">
-    <link href="css/head.css" rel="stylesheet">
-    <link href="css/head/head-lista.css" rel="stylesheet">
-    <link href="css/head/head-links.css" rel="stylesheet">
-    <link href="css/head/head-nombre.css" rel="stylesheet">
+    <link href="css/modo-obscuro.css" rel="stylesheet"> 
+     <link href="css/head/head.css" rel="stylesheet">
+    <link href="css/head/head-items.css" rel="stylesheet">
+    <link href="css/head/head-links.css" rel="stylesheet"> 
+     <link href="css/head/head-lista.css" rel="stylesheet">
     <link href="css/quien-soy/quien-soytitulo.css" rel="stylesheet">
     <link href="css/quien-soy/quien-soydescripcion.css" rel="stylesheet">
     <link href="css/quien-soy/quien-soyimagen.css" rel="stylesheet">
@@ -42,9 +43,7 @@
     <link href="css/contactos/contactos-titulo.css" rel="stylesheet">
     <link href="css/contactos/contactos.css" rel="stylesheet">
     <link href="css/contactos/contactos-imagen.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-
-
+  <link href="css/footer.css" rel="stylesheet">
 </head>
 <body>
     <header class="cabecera">
@@ -53,10 +52,11 @@
             <ul class="head__lista">
                 <li class="head__item"><a class="head__link activo" href="#sobre-mi">Sobre mí</a></li>
                 <li class="head__item"><a class="head__link" href="#habiskills">Skills</a></li>
-                <li class="head__item"><a class="head__link" href="#free-hobbies">Hobbies</a></li>
                 <li class="head__item"><a class="head__link" href="#formacion-estudios">Formación</a></li>
                 <li class="head__item"><a class="head__link" href="#proyectos-primeros">Proyectos</a></li>
                 <li class="head__item"><a class="head__link" href="#general-contactame">Contactos</a></li>
+                <li class="head__item"><input type="checkbox" id="toggle" class="btn btn-dark" onclick="cambiarModo()">
+                <label for="toggle" class="button"></label></li>
             </ul>
         </nav>
     </header>
@@ -65,12 +65,11 @@
         <div class="container reveal">
              <div class="separar">
             <div class="quien-soy__arriba">
-                <h3 class="quien-soy__titulo">Yo soy Allison Paula y construyo páginas web.</h3>
-                <p class="quien-soy__descripcion">Estudio Desarrollo de Software.</br> actualmente participo del
-                    proyecto ONE en Alura Latam. </p>
+                <h3 class="quien-soy__titulo">Hola, Yo soy Allison Paula.</h3>
+                <p class="quien-soy__descripcion">Desarrollador de Software en formación </p>
             </div>
             <div class="persona">
-                <div class="persona__imagen persona__imagen--allison"></div>
+                <img class="persona-imagen" src="./imagenes/AVATAR.svg" alt="AVATAR" />
             </div>
         </div>
         <div class="personal-links">
@@ -79,274 +78,211 @@
             <a class="personal-links__links" href="#" title=”título del enlace”>Currículum</a>
         </div>
     </section>
-    <section id="sobre-mi">
-        <div class="sobre-mi__titulo"> Sobre mí</div>
-        <p class="sobre-mi__descripcion">Me encanta aprender cosas nuevas, por ello soy autodidacta. Para mí la
-            responsabilidad y disciplina son muy importantes; me caracterizo por ser un buen líder, trabajar en
-            equipo, tener capacidad de organización y productividad. Busco oportunidades para poner en práctica mis
-            conocimientos en el área de la tecnología.</p>
-        </div>
-    </section>
 
-    <section id="habiskills">
-    <main class="skills-hard">
-        <div class="container reveal">
-             <h3 class="skills__titulo">Hard Skills</h3>
-        <div class="skills">
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo html.svg" alt="Logo de html" />
-                <div class="skills-hard__nombre">
-                    <h4>html</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo css.svg" alt="Logo de css" />
-                <div class="skills-hard__nombre">
-                    <h4>css</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo javascript.svg"
-                    alt="Logo de javascript" />
-                <div class="skills-hard__nombre">
-                    <h4>javascript</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo github.svg"
-                    alt="Logo de github" />
-                <div class="skills-hard__nombre">
-                    <h4>github</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo git.svg" alt="Logo de git" />
-                <div class="skills-hard__nombre">
-                    <h4>git</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo figma.svg" alt="Logo de figma" />
-                <div class="skills-hard__nombre">
-                    <h4>figma</h4>
-                </div>
-            </div>
-            <div class="skills-hard__same">
-                <img class="skills-hard__same--imagen" src="./imagenes-portafolio/Logo trello.svg"
-                    alt="Logo de trello" />
-                <div class="skills-hard__nombre">
-                    <h4>trello</h4>
-                </div>
-            </div>
-        </div>
-        </div>
-    </main>
-    <main class="soft-hability">
-        <div class="container reveal">
-              <h3 class="soft__titulo">Soft Skills</h3>
-        <div class="soft">
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Trabajo en equipo.svg"
-                    alt="Trabajo en equipo" />
-                <div class="hability-soft__nombre">
-                    <h4>Trabajo en </br>equipo</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Disciplina.svg" alt="Disciplina" />
-                <div class="hability-soft__nombre">
-                    <h4>Disciplina</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Gestion del tiempo.svg"
-                    alt="Gestion del tiempo" />
-                <div class="hability-soft__nombre">
-                    <h4>Gestion del</br>tiempo</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Liderazgo.svg" alt="Liderazgo" />
-                <div class="hability-soft__nombre">
-                    <h4>Liderazgo</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Responsabilidad.svg"
-                    alt="Responsabilidad" />
-                <div class="hability-soft__nombre">
-                    <h4>Responsabilidad</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Atencion a los detalles.svg"
-                    alt="Atencion a los detalles" />
-                <div class="hability-soft__nombre">
-                    <h4>Atención a los</br> detalles</h4>
-                </div>
-            </div>
-            <div class="hability-soft__same">
-                <img class="hability-soft__same--imagen" src="./imagenes-portafolio/Agilidad.svg"
-                    alt="Atencion a los detalles" />
-                <div class="hability-soft__nombre">
-                    <h4>Agilidad</h4>
-                </div>
-            </div>
-        </div>
-        </div>
-    </main>
+    
+<section id="sobre-mi">
+    <div class="sobre-mi__titulo"> Sobre mí</div>
+    <p class="sobre-mi__descripcion">Siempre ha llamado mi atención lo increíble que es la Tecnología y todos los beneficios que podemos obtener de ella, por esta razón tengo la meta de usar la tecnologia sabiamente para ayudar a  En el 2021 empecé mis estudios en esta maravillosa área. 
+        Me encanta aprender cosas nuevas,por esa razón soy autodidacta. 
+        Para mí la responsabilidad y disciplina son muy importantes; me caracterizo por ser un buen líder, trabajar en
+        equipo, tener capacidad de organización y productividad. 
+        Busco oportunidades para poner en práctica mis conocimientos y ampliar los mismos.</p>
+    </div>
 </section>
 
-    <section id="free-hobbies">
-        <div class="container reveal">
-                  <h3 class="hobbies__titulo">Hobbies</h3>
-        <div class="hobbies">
-            <div class="hobbies-hobbi__same">
-                <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Leer.svg" alt="Leer" />
-                <div class="hobbies-hobbi___nombre">
-                    <h4>Leer</h4>
-                </div>
-            </div>
-            <div class="hobbies-hobbi__same">
-                <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Hacer ejercicio.svg"
-                    alt="Hacer ejercicio" />
-                <div class="hobbies-hobbi___nombre">
-                    <h4>Hacer</br> ejercicio</h4>
-                </div>
-            </div>
-            <div class="hobbies-hobbi__same">
-                <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Podcast.svg"
-                    alt="escuchar Podcast" />
-                <div class="hobbies-hobbi___nombre">
-                    <h4>Escuchar</br> podcast</h4>
-                </div>
-            </div>
-            <div class="hobbies-hobbi__same">
-                <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Programacion.svg"
-                    alt="Programacion" />
-                <div class="hobbies-hobbi___nombre">
-                    <h4>Programar</h4>
-                </div>
-            </div>
-            <div class="hobbies-hobbi__same">
-                <img class="hobbies-hobbi___same--imagen" src="./imagenes-portafolio/Conversar con mis hermanos.svg"
-                    alt="Conversacion" />
-                <div class="hobbies-hobbi___nombre">
-                    <h4>Conversar con mi</br>familia</h4>
-                </div>
+<section id="habiskills">
+<main class="skills-hard">
+    <div class="container reveal">
+         <h3 class="skills__titulo">Hard Skills</h3>
+    <div class="skills">
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/HTML.svg" alt="Logo de html" />
+            <div class="skills-hard__nombre">
+                <h4>html</h4>
             </div>
         </div>
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/CSS.svg" alt="Logo de css" />
+            <div class="skills-hard__nombre">
+                <h4>css</h4>
+            </div>
         </div>
-    </section>
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/JAVASCRIPT.svg"alt="Logo de javascript" />
+            <div class="skills-hard__nombre">
+                <h4>javascript</h4>
+            </div>
+        </div>
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/GITHUB.svg" alt="Logo de github" />
+            <div class="skills-hard__nombre">
+                <h4>github</h4>
+            </div>
+        </div>
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/GIT.svg" alt="Logo de git" />
+            <div class="skills-hard__nombre">
+                <h4>git</h4>
+            </div>
+        </div>
+        <div class="skills-hard__same">
+            <img class="skills-hard__same--imagen" src="./imagenes/TRELLO.svg" alt="Logo de trello" />
+            <div class="skills-hard__nombre">
+                <h4>trello</h4>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+<main class="soft-hability">
+    <div class="container reveal">
+          <h3 class="soft__titulo">Soft Skills</h3>
+    <div class="soft">
+        <div class="hability-soft__same">
+            <img class="hability-soft__same--imagen" src="./imagenes/equipo.svg" alt="Trabajo en equipo" />
+            <div class="hability-soft__nombre">
+                <h4>Trabajo en </br>equipo</h4>
+            </div>
+        </div>
+        <div class="hability-soft__same">
+            <img class="hability-soft__same--imagen" src="./imagenes/DISCIPLINA.svg" alt="Responsabilidad" />
+            <div class="hability-soft__nombre">
+                <h4>Responsabilidad</h4>
+            </div>
+        </div>
+        <div class="hability-soft__same">
+            <img class="hability-soft__same--imagen" src="./imagenes/TIEMPO.svg"
+                alt="Gestion del tiempo" />
+            <div class="hability-soft__nombre">
+                <h4>Gestion del</br>tiempo</h4>
+            </div>
+        </div>
+        <div class="hability-soft__same">
+            <img class="hability-soft__same--imagen" src="./imagenes/LIDERAZGO.svg" alt="Liderazgo" />
+            <div class="hability-soft__nombre">
+                <h4>Liderazgo</h4>
+            </div>
+        </div>
+        <div class="hability-soft__same">
+            <img class="hability-soft__same--imagen" src="./imagenes/detalles.svg" alt="Atencion a los detalles" />
+            <div class="hability-soft__nombre">
+                <h4>Atención a los</br> detalles</h4>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+</section>
 
-    <section id="formacion-estudios">
-        <div class="container reveal">
-        <h3 class="formacion__titulo">Formación</h3>
-        <div class="formacion">
-            <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/itla2.jpg"
-                    alt="Logo de ITLA" />
-                <div class="formacion-forma___nombre">
-                    <h4> -Instituto Tecnológico</br>de las Ámericas</h4>
-                    <p > -Desarrollo de Software</p>
-                    <h5>-septiembre 2022</h5>
-                </div>
-            </div>
-             <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/logo de alura.svg"
-                    alt="Logo de alura" />
-                <div class="formacion-forma___nombre">
-                    <h4>-Alura Latam</h4>
-                    <p> -Desarrollador Frontend</p>
-                    <h5> -marzo 2022/En curso</h5>
-                </div>
-            </div>
-             <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/Capacitate-para-el-empleo.jpg"
-                    alt="Logo de capacitate para el emplelo" />
-                <div class="formacion-forma___nombre">
-                    <h4>-Capacítate para el empleo</h4>
-                    <p>-Introducción a la Programación</p>
-                    <h5>-noviembre 2021/marzo 2022</h5>
-                </div>
-            </div>
-            <div class="formacion-formado__same">
-                <img class="formacion-formado___same--imagen" src="./imagenes-portafolio/LOGO UASD.jpeg"
-                    alt="Logo de la UASD" />
-                <div class="formacion-forma___nombre">
-                    <h4> -Universidad Autónoma</br>de Santo Domingo</h4>
-                    <p>-Licenciatura en Informática</p>
-                    <h5>-septiembre 2021/En curso</h5>
-                </div>
+<section id="formacion-estudios">
+    <div class="container reveal">
+    <h3 class="formacion__titulo">Formación</h3>
+    <div class="formacion">
+        <div class="formacion-formado__same">
+            <img class="formacion-formado___same--imagen" src="./imagenes/itla.png"
+                alt="Logo de ITLA" />
+            <div class="formacion-forma___nombre">
+                <h4>Instituto Tecnológico de las Ámericas</h4>
+                <p>Desarrollo de Software</p>
+                <h5>Septiembre 2022</h5>
             </div>
         </div>
+         <div class="formacion-formado__same">
+            <img class="formacion-formado___same--imagen" src="./imagenes/alura.svg"
+                alt="Logo de alura" />
+            <div class="formacion-forma___nombre">
+                <h4>Alura Latam</h4>
+                <p>Desarrollador Frontend</p>
+                <h5>Marzo 2022-En curso</h5>
+            </div>
         </div>
-    </section>
+         <div class="formacion-formado__same">
+            <img class="formacion-formado___same--imagen" src="./imagenes/capacitateparaelempleo2.png"
+                alt="Logo de capacitate para el emplelo" />
+            <div class="formacion-forma___nombre">
+                <h4>Capacítate para el empleo</h4>
+                <p>Introducción a la Programación</p>
+                <h5>Noviembre 2021-marzo 2022</h5>
+            </div>
+        </div>
+        <div class="formacion-formado__same">
+            <img class="formacion-formado___same--imagen" src="./imagenes/logo3uasd.png"
+                alt="Logo de la UASD" />
+            <div class="formacion-forma___nombre">
+                <h4>Universidad Autónoma de Santo Domingo</h4>
+                <p>Licenciatura en Informática</p>
+                <h5>Septiembre 2021-En curso</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
-    <section id="proyectos-primeros">
-        <div class="container reveal">
-        <h3 class="proyectos__titulo">Proyectos</h3>
-        <div class="proyectos">
-            <div class="proyecto-proyecto__same">
-                    <h4 class="proyectos-proyecto___nombre"> Encriptador De Texto</h4>
-                     <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/Encriptador.jpeg" />
-                    <nav>
-                        <ul class="proyecto__lista">
-                            <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/">Ver demo</a></li>
-                            <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/AllisonPaula.github.io.git">Ir a repositorio</a></li>
-                        </ul>
-                    </nav>  
-            </div>
+<section id="proyectos-primeros">
+    <div class="container reveal">
+    <h3 class="proyectos__titulo">Proyectos</h3>
+    <div class="proyectos">
         <div class="proyecto-proyecto__same">
-                <h4 class="proyectos-proyecto___nombre">Juego del ahorcado</h4>
-            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/El ahorcado.jpeg" alt="Juego del ahorcado" />
-            <nav>
-                <ul class="proyecto__lista">
-                    <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/allisonspaula.github.io/">Ver demo</a></li>
-                    <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/allisonspaula.github.io.git">Ir a repositorio</a></li>
-                </ul>
-            </nav>  
+                <h4 class="proyectos-proyecto___nombre"> Encriptador De Texto</h4>
+                 <img class="proyecto-proyecto___same--imagen" src="./imagenes/Encriptador.jpeg" />
+                <nav>
+                    <ul class="proyecto__lista">
+                        <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/">Ver demo</a></li>
+                        <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/AllisonPaula.github.io.git">Ir a repositorio</a></li>
+                    </ul>
+                </nav>  
+                <p class="proyecto-descripcion">Lo que escriba será codificado en un lenguaje secreto. Pruebe y diviértese enviando mensajes anónimos.</p>
         </div>
-        <div class="proyecto-proyecto__same">
-                <h4  class= "proyectos-proyecto___nombre">Portafolio Personal</h4>
-            <img class="proyecto-proyecto___same--imagen" src="./imagenes-portafolio/Portafolio1.jpeg" alt="Portafilio personal" />
-            <nav>
-                <ul class="proyecto__lista">
-                    <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/allisPaula.github.io/">Ver demo</a></li>
-                    <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/allisPaula.github.io.git">Ir a repositorio</a></li>
-                </ul>
-            </nav>  
-        </div>
-        </div>
-        </div>
-    </section>
+    <div class="proyecto-proyecto__same">
+            <h4 class="proyectos-proyecto___nombre">Juego del ahorcado</h4>
+           
+        <img class="proyecto-proyecto___same--imagen" src="./imagenes/El ahorcado.jpeg" alt="Juego del ahorcado" />
+        <nav>
+            <ul class="proyecto__lista">
+                <li class="proyecto__item"><a class="proyecto__link" href="https://allisonpaula.github.io/allisonspaula.github.io/">Ver demo</a></li>
+                <li class="proyecto__item"><a class="proyecto__link" href="https://github.com/AllisonPaula/allisonspaula.github.io.git">Ir a repositorio</a></li>
+            </ul>
+        </nav>  
+         <p class="proyecto-descripcion">Adivine la palabra para salvar a nuestro amigo de la horca.</p>
+    </div>
+    </div>
+    </div>
+</section>
 
-    <section id="general-contactame">
-        <div class="container reveal">
-        <h3 class="contactame">Contáctame</h3>
-        <div class="general">
-            <div class="imagen__correo">
-                <img src="./imagenes-portafolio/postalemail.svg" alt="sobre de email" />
-            </div>
-            <form id="contact-form" method="post">
-                <label class="label" for="name">Nombre completo</label>
-                <input type="text" id="name" name="name" placeholder="Nombre completo" required>
-                <label class="label" for="email">Correo electrónico</label>
-                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
-                <label class="label" for="message">Mensaje</label>
-                <textarea rows="6" placeholder="Mensaje" id="message" name="message" required></textarea>
-                <button class=" enviar" type="submit" id="submit" name="submit">Enviar</button>
-            </form>
-            <div id="error"></div>
-            <div id="success-msg"></div>
+<section id="general-contactame">
+    <div class="container reveal">
+    <h3 class="contactame">Contáctame</h3>
+    <div class="general">
+        <div >
+            <img class="imagen__correo" src="./imagenes/contacta.svg" alt="Contactos" />
         </div>
-        </div>
-        </div>
-    </section>
-    <footer>
-        <p></p>
-    </footer>
-        <script src="script.js"></script>
+        <form id="contact-form" method="post">
+            <label class="label" for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+            <label class="label" for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            <label class="label" for="message">Mensaje</label>
+            <textarea rows="6" placeholder="Mensaje" id="message" name="message" required></textarea>
+            <button class=" enviar" type="submit" id="submit" name="submit">Enviar</button>
+        </form>
+        <div id="error"></div>
+        <div id="success-msg"></div>
+    </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <a class="footer-link" href="https://allisonpaula.github.io/allisPaula.github.io/">Correo electrónico: Paulaallison88@gmail.com</a>
+    <p class="footer-derecho"> &#169Copyright Todos los derechos reservados.</br>Desarrollado por Allison Paula 2022</p>
+</footer>
+        <script src="script/contacto.js"></script> 
+        <script src="./script/scroll.js"></script>
+        <script type="text/javascript">
+            function cambiarModo() {
+                var cuerpoweb = document.body;
+                cuerpoweb.classList.toggle("oscuro");
+            }
+        </script>
        
 </body>
 </html>

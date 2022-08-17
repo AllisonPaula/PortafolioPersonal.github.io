@@ -1,10 +1,22 @@
 .formacion{
-    background: var(--blanco);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 100px;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+
+}
+.formacion-formado__same{
+  background-color: var(--blanco-p);
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+.formacion-formado__same:hover{
+  cursor: pointer;
+transform: scale(0.9);
+
 }
 
 

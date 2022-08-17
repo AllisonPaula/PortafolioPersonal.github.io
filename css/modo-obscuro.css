@@ -1,0 +1,40 @@
+.oscuro{
+    background: var(--negro);
+    width: 20px;
+    height: 20px;
+}
+
+#toggle {
+    display: none;
+   margin: auto;
+}
+
+.button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.button::after {
+    content: url("../imagenes/sun-line.svg");
+    width: 30px;
+    height: 30px;
+    background-color: var(--violeta-mc);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    position: absolute;
+    top: -4px;
+    left: 0;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+}
+
+#toggle:checked+.button::after {
+    background-color: var(--violeta-mo);
+}

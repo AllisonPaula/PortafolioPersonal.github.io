@@ -8,8 +8,7 @@
 }
 
 .proyectos-proyecto___nombre {
-    background: var(--);
-    color: var(--azul-azul);
+    color: var(--negro);
     font-family: var(--roboto);
     font-weight: 700;
     font-size: 1.2rem;
@@ -18,3 +17,11 @@
     text-align: center;
     text-transform: capitalize;
 }
+.proyecto-descripcion{
+ font-size: 1rem;
+ font-weight: 450;
+ font-family: var(--roboto);
+ padding: 1rem;
+}
+    
+

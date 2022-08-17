@@ -1,7 +1,8 @@
 #sobre-mi {
-    background: var(--violeta);
+    background: var(--violeta-mc);
     margin: auto;
     margin-bottom: 1rem;
     padding: 3rem;
     text-align: left;
+    opacity: 0.9;
 }

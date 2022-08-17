@@ -1,5 +1,6 @@
 .sobre-mi__descripcion {
-    color: var(--azul-azul);
+   
+    color: var(--negro);
     font-family: var(--roboto);
     font-size: 1.2rem;
     font-weight: 700;

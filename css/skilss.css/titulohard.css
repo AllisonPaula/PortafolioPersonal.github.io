@@ -8,13 +8,18 @@
 }
 
 .skills-hard__nombre {
-    color: var(--azul-azul);
+    color: var(--negro);
     font-family: var(--roboto);
     font-weight: 700;
     font-size: 1.2rem;
-    margin-left: 1.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     text-transform: capitalize;
+}
+@media screen and (max-width:600px) {
+    .skills-hard__nombre{
+        font-size: 1rem;
+    }
+    
 }
     

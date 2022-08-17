@@ -1,16 +1,23 @@
 :root {
   /*Las -- son para definir una variable en CSS*/
   --azul-azul: #103D4A;
-  --blanco: #ffffff;
+  --blanco: #f8f7f9;
+  --blanco-p:#ffffff;
   --gris-claro: #666666;
   --gris-oscuro: #4F4C4C;
-  --negro: #000000;
+  --negro: #131313;
   --otro-violeta: #c3b8ce;
+  --verde-mc:#36bc9b;
+  --verde-mo: #48cfae;
   --violeta: #C8A2D9;
-
-
+  --violeta-mc:#967bdc;
+  --violeta-mo:#ac92ed;
+  
   --pacifico: 'Pacifico', cursive;
   --roboto: 'Roboto', sans-serif;
+}
+body{
+  background-color: var(--blanco);
 }
 
 * {
@@ -31,4 +38,16 @@
   opacity: 1;
   transform: translateY(0);
 }
-    
+  
+/*Scrool personalizado*/
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(200, 162, 217); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(200, 162, 217);
+}

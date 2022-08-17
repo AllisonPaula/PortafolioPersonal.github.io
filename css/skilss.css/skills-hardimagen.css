@@ -1,12 +1,12 @@
 .skills-hard__same--imagen {
-    height: 120px;
+    height: 100px;
     padding: 1rem;
-    width: 120px;
+    width: 100px;
 }
 @media screen and (max-width:600px){
     .skills-hard__same--imagen{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
     }
 }
 

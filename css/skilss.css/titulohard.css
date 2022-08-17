@@ -11,15 +11,31 @@
     color: var(--negro);
     font-family: var(--roboto);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding: 0.5rem;
     text-align: center;
     text-transform: capitalize;
 }
-@media screen and (max-width:600px) {
-    .skills-hard__nombre{
-        font-size: 1rem;
-    }
-    
+@media only screen and (max-width:600px) {
+    .skills__titulo{
+     font-size: 1.2rem;
+   }
 }
+@media only screen and (max-width:600px) {
+    .skills-hard__nombre{
+        font-size: 0.8rem;
+     }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .skills__titulo{
+        font-size: 1.2rem;
+      }
+  }
+@media only screen and (max-width:768px) {
+   .skills-hard__nombre{
+      font-size: 0.8rem;
+   }
+}
+
     

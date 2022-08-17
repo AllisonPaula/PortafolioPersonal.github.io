@@ -9,7 +9,11 @@
 @media screen and (max-width:600px)
 {
     .quien-soy__titulo{
-        font-size: 1rem;
-        text-align: end;
+        font-size: 0.9rem;
     }
+}
+@media only screen and (max-width:768px) {
+   .quien-soy__titulo{
+      font-size: 0.9;
+   }
 }

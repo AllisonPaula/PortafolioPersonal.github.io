@@ -2,18 +2,40 @@
     font-family: var(--pacifico);
     font-weight: 300;
     font-size: 2rem;
-    text-align: center;
     padding: 4rem;  
+    text-align: center;
     text-decoration: underline;
 }
 .hability-soft__nombre{
     color: var(--negro);
     font-family: var(--roboto);
     font-weight: 700;
-    font-size: 1.2rem;
-    text-align: center;
-    text-transform: capitalize;
+    font-size: 0.9rem;
     margin-left: 0.6rem;
-      
-    
+    padding: 1rem;
+    text-align: center;
+    text-transform:capitalize;
 }
+@media only screen and (max-width:600px) {
+    .soft__titulo{
+   font-size:1rem ;
+   }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .soft__titulo{
+     font-size: 1rem ;
+   }
+  }
+  @media only screen and (max-width:600px) {
+    .hability-soft__nombre{
+   font-size:0.8rem ;
+   }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .hability-soft__nombre{
+     font-size: 0.8rem ;
+   }
+  }
+

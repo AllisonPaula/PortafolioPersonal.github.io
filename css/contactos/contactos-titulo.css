@@ -1,6 +1,5 @@
 .contactame {
   font-family: var(--pacifico);
-
   font-size: 2rem;
   font-weight: 300;
   padding: 4rem;
@@ -31,6 +30,9 @@
   padding: 1rem;
   text-transform: uppercase;
   margin-left: 0.6rem;
+}
+.enviar:hover{
+  transform: scale(0.8);
 }
 
 form {
@@ -89,4 +91,30 @@ textarea {
 
 #success-msg {
   transition-delay: 3s;
+}
+
+@media only screen and (max-width:600px) {
+  .contactame{
+ font-size:1.2rem ;
+ }
+  .enviar{
+ font-size:0.7rem;
+ }
+ #error,
+ #sucess-msg{
+  margin: 0;
+ }
+}
+@media only screen and (max-width:768px) 
+{
+  .contactame{
+   font-size: 1.2rem ; 
+ }
+ .enviar{
+   font-size: 0.7rem ;
+ }
+ #error,
+ #sucess-msg{
+  margin: 0;
+ }
 }

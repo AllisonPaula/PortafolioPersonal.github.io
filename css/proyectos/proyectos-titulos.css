@@ -18,10 +18,42 @@
     text-transform: capitalize;
 }
 .proyecto-descripcion{
- font-size: 1rem;
+ font-size: 0.9rem;
  font-weight: 450;
  font-family: var(--roboto);
  padding: 1rem;
 }
-    
-
+   
+@media only screen and (max-width:600px) {
+    .proyectos__titulo{
+   font-size:1.2rem ;
+   }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .proyectos__titulo{
+     font-size: 1.2rem ;
+   }
+  }
+  @media only screen and (max-width:600px) {
+    .proyectos-proyecto___nombre{
+    font-size:0.9rem
+   }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .proyectos-proyecto___nombre{
+        font-size:0.9rem ;
+       }
+  }
+  @media only screen and (max-width:600px) {
+    .proyecto-descripcion{
+    font-size:0.8rem
+   }
+  }
+  @media only screen and (max-width:768px) 
+  {
+    .proyecto-descripcion{
+        font-size:0.8rem ;
+       }
+  }

@@ -5,11 +5,15 @@
     text-align: center;
 }
 
-
-@media screen and (max-width:600px){
-    .persona__imagen{
-        height: 200px;
-        width: 200px;
-      
+@media only screen and (max-width:600px) {
+     .persona-imagen{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .persona-imagen{
+       height: 170px;
+       width: 170px;
     }
 }

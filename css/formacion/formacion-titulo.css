@@ -1,35 +1,38 @@
 .formacion__titulo {
-    font-family: var(--pacifico);
-    font-weight: 300;
-    font-size: 2rem;
-    padding: 5rem;
-    text-align: center;
-    text-decoration: underline;
+  color: var(--violeta-mc);
+  font-family: var(--pacifico);
+  font-weight: 300;
+  font-size: 1.8rem;
+  padding: 5rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .formacion-forma___nombre {
-    align-items: center;
-    color: var(--negro);
-    font-family: var(--roboto);
-    font-size: 0.8rem;
-    font-weight: 700;
-    padding: 1rem;
+  align-items: center;
+  color: var(--negro);
+  font-family: var(--roboto);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 1rem;
 }
 
 @media only screen and (max-width:600px) {
-    .formacion__titulo{
-      font-size: 1.2rem;
-   }
-    .formacion-forma___nombre{
-        font-size: 0.7rem;
-    } 
+  .formacion__titulo {
+    font-size: 1.2rem;
   }
-  @media only screen and (max-width:768px) 
-  {
-    .formacion__titulo{
-      font-size: 1.2rem;
-   }
-    .formacion-forma___nombre{
-      font-size: 0.7rem;
-   }
+
+  .formacion-forma___nombre {
+    font-size: 0.7rem;
   }
+}
+
+@media only screen and (max-width:768px) {
+  .formacion__titulo {
+    font-size: 1.2rem;
+  }
+
+  .formacion-forma___nombre {
+    font-size: 0.7rem;
+  }
+}

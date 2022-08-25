@@ -1,19 +1,20 @@
 .formacion-formado___same--imagen {
-    height: 130px;
-    padding: 1rem;
-    width: 130px;
-    background-image: none;
+  height: 130px;
+  padding: 1rem;
+  width: 130px;
+  background-image: none;
 }
+
 @media only screen and (max-width:600px) {
-    .formacion-formado___same--imagen{
-      height: 120px;
-      width: 120px;
-   }
+  .formacion-formado___same--imagen {
+    height: 120px;
+    width: 120px;
   }
-  @media only screen and (max-width:768px) 
-  {
-    .formacion-formado___same--imagen{
-      height: 120px;
-      width: 120px;
-   }
+}
+
+@media only screen and (max-width:768px) {
+  .formacion-formado___same--imagen {
+    height: 120px;
+    width: 120px;
   }
+}

@@ -1,8 +1,21 @@
 .proyecto-proyecto___same--imagen {
-    border-radius: 20%;
-    height: 350px;
-    margin-left: 0.2rem;
-    padding: 1.5rem;
-    width: 350px;
-    object-fit: fill;
+    border-radius: 2rem;
+    height: 400px;
+    padding: 1rem;
+    width: 400px;
+
+}
+
+@media only screen and (width:600px) {
+    .proyecto-proyecto___same--imagen {
+        height: 150px;
+        width: 200px;
+    }
+}
+
+@media only screen and (width:768px) {
+    .proyecto-proyecto___same--imagen {
+        height: 150px;
+        width: 200px;
+    }
 }

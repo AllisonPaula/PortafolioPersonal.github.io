@@ -1,29 +1,30 @@
-.formacion-link{
-    background-color: var(--violeta-mc);
-    border-radius: 5px;
-    color: var(--negro);
-    font-family: var(--roboto);
-    font-size: 0.8rem;
-    font-weight: 700;
-    padding: 0.8rem;
-    text-align: center;
-    text-decoration: none;  
-    text-transform: uppercase;
+.formacion-link {
+  background-color: var(--violeta-mc);
+  border-radius: 5px;
+  color: var(--negro);
+  font-family: var(--roboto);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.formacion-link:hover{
-    color: var(--gris-oscuro);
-    cursor: pointer;
-    text-decoration: underline;
+
+.formacion-link:hover {
+  color: var(--gris-oscuro);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width:600px) {
-    .formacion-link{
-      font-size: 0.6rem;
-   }
+  .formacion-link {
+    font-size: 0.6rem;
   }
-  @media only screen and (max-width:768px) 
-  {
-    .formacion-link{
-      font-size: 0.6rem;
-   }
+}
+
+@media only screen and (max-width:768px) {
+  .formacion-link {
+    font-size: 0.6rem;
   }
+}

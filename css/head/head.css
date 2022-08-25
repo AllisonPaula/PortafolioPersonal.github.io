@@ -1,12 +1,12 @@
 .cabecera {
-  background: var(--blanco);
   align-items: center;
+  background-color: var(--negrito);
   display: flex;
   justify-content: space-between;
 }
 
 header {
-  border-bottom: 1px solid var(--violeta-mc);
+  border-bottom: 1px solid var(--violeta-mo);
   padding: 20px;
   position: fixed;
   left: 0;
@@ -24,7 +24,7 @@ header nav a {
 
 header nav a:hover,
 header nav a.active {
-  background: var(--violeta-mc);
+  background: var(--blanco);
   letter-spacing: 2px;
   transition: 0.5s ease-out;
 }

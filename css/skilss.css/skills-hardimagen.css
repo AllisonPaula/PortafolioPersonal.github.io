@@ -3,10 +3,10 @@
     padding: 1rem;
     width: 100px;
 }
-@media screen and (max-width:600px){
-    .skills-hard__same--imagen{
+
+@media screen and (max-width:600px) {
+    .skills-hard__same--imagen {
         height: 90px;
         width: 90px;
     }
 }
-

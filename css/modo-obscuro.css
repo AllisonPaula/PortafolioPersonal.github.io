@@ -1,12 +1,10 @@
-.oscuro{
+.oscuro {
     background: var(--negro);
-    width: 20px;
-    height: 20px;
 }
 
 #toggle {
     display: none;
-   margin: auto;
+    margin: auto;
 }
 
 .button {
@@ -23,7 +21,7 @@
     content: url("../imagenes/sun-line.svg");
     width: 30px;
     height: 30px;
-    background-color: var(--violeta-mc);
+    background-color: var(--violeta-mo);
     border: 2px solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, .25);

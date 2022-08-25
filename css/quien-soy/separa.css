@@ -1,9 +1,3 @@
 .separar{
     display: flex;
 }
-@media screen and (max-width:600px)
-{
-    .separar{
-       
-    }
-}

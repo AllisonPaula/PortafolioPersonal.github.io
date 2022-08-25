@@ -6,8 +6,9 @@
     align-items: center;
     justify-content: space-around;
 }
-@media screen and (max-width:600px){
- .quien-soy{
- display: block;
- }    
+
+@media screen and (max-width:600px) {
+    .quien-soy {
+        display: block;
+    }
 }

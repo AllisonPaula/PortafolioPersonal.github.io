@@ -1,7 +1,0 @@
-.hobbies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-    padding: 2rem;
-}

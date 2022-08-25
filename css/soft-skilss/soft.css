@@ -1,35 +1,39 @@
-.soft{
+.soft {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
   gap: 175px;
   text-align: center;
   padding: 1rem;
   margin: 0;
 }
-.soft-hability{
-padding: 2rem;
+
+.soft-hability {
+  padding: 2rem;
 }
-.hability-soft__same{
+
+.hability-soft__same {
   background-color: var(--blanco-p);
   border-radius: 1rem;
   opacity: 0.9;
-  }
-.hability-soft__same:hover{
-  cursor: pointer;
-transform: scale(0.8);
-}
-@media only screen and (max-width:600px) {
-  .soft{
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 50px;
- }
-}
-@media only screen and (max-width:768px) 
-{
-  .soft{
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 50px;
- }
 }
 
+.hability-soft__same:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width:600px) {
+  .soft {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .soft {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 50px;
+    padding: 2rem;
+  }
+}

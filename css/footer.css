@@ -1,17 +1,20 @@
-footer{
-    background: var(--violeta-mc);
+footer {
+    background: var(--violeta-mo);
     padding: 2rem;
-    text-align: center; 
+    text-align: center;
 }
-.footer-derecho{
-color: var(--gris-oscuro);
- font-size: 0.7rem;
+
+.footer-derecho {
+    color: var(--gris-oscuro);
+    font-size: 0.7rem;
 }
-.footer-link{
+
+.footer-link {
     color: var(--negro);
     font-size: 0.8rem;
     text-decoration: none;
 }
+
 .footer-link:hover {
     text-decoration: underline;
 }

@@ -2,15 +2,15 @@
     height: 400px;
     width: 400px;
 }
+
 @media screen and (max-width:600px) {
-    .imagen__correo{
+    .imagen__correo {
         display: none;
     }
 }
+
 @media screen and (max-width:768px) {
-    .imagen__correo{
+    .imagen__correo {
         display: none;
     }
 }
-
-

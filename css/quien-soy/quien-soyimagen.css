@@ -1,19 +1,20 @@
 .persona-imagen {
     height: 300px;
     margin-top: 5rem;
-    width: 300px;
     text-align: center;
+    width: 300px;
 }
 
 @media only screen and (max-width:600px) {
-     .persona-imagen{
+    .persona-imagen {
         height: 150px;
         width: 150px;
     }
 }
+
 @media only screen and (max-width:768px) {
-    .persona-imagen{
-       height: 170px;
-       width: 170px;
+    .persona-imagen {
+        height: 170px;
+        width: 170px;
     }
 }

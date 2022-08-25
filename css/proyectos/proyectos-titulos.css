@@ -1,59 +1,55 @@
 .proyectos__titulo {
-    font-family: var(--pacifico);
-    font-weight: 300;
-    font-size: 2rem;
-    padding: 4rem;
-    text-align: center;
-    text-decoration: underline;
+  color: var(--violeta-mc);
+  font-family: var(--pacifico);
+  font-weight: 300;
+  font-size: 1.8rem;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .proyectos-proyecto___nombre {
-    color: var(--negro);
-    font-family: var(--roboto);
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-left: 0.6rem;
-    padding: 1rem;
-    text-align: center;
-    text-transform: capitalize;
+  color: var(--negro);
+  font-family: var(--roboto);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 0.6rem;
+  padding: 2rem;
+  text-align: center;
+  text-transform: capitalize;
 }
-.proyecto-descripcion{
- font-size: 0.9rem;
- font-weight: 450;
- font-family: var(--roboto);
- padding: 1rem;
+
+.proyecto-descripcion {
+  font-size: 0.9rem;
+  font-weight: 450;
+  font-family: var(--roboto);
+  padding: 0.5rem;
 }
-   
+
 @media only screen and (max-width:600px) {
-    .proyectos__titulo{
-   font-size:1.2rem ;
-   }
+  .proyectos__titulo {
+    font-size: 1.2rem;
   }
-  @media only screen and (max-width:768px) 
-  {
-    .proyectos__titulo{
-     font-size: 1.2rem ;
-   }
+
+  .proyectos-proyecto___nombre {
+    font-size: 0.9rem
   }
-  @media only screen and (max-width:600px) {
-    .proyectos-proyecto___nombre{
-    font-size:0.9rem
-   }
+
+  .proyecto-descripcion {
+    font-size: 0.8rem
   }
-  @media only screen and (max-width:768px) 
-  {
-    .proyectos-proyecto___nombre{
-        font-size:0.9rem ;
-       }
+}
+
+@media only screen and (max-width:768px) {
+  .proyectos__titulo {
+    font-size: 1.2rem;
   }
-  @media only screen and (max-width:600px) {
-    .proyecto-descripcion{
-    font-size:0.8rem
-   }
+
+  .proyectos-proyecto___nombre {
+    font-size: 0.9rem;
   }
-  @media only screen and (max-width:768px) 
-  {
-    .proyecto-descripcion{
-        font-size:0.8rem ;
-       }
+
+  .proyecto-descripcion {
+    font-size: 0.8rem;
   }
+}

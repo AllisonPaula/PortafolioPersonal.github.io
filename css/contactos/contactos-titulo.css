@@ -1,6 +1,7 @@
 .contactame {
+  color: var(--violeta-mc);
   font-family: var(--pacifico);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   padding: 4rem;
   text-align: center;
@@ -10,7 +11,7 @@
 .label,
 .description {
   align-items: center;
-  color: var(--negro);
+  color: var(--gris-oscuro);
   font-family: var(--roboto);
   font-size: 0.8rem;
   font-weight: 700;
@@ -21,7 +22,7 @@
 .enviar {
   align-items: center;
   border: none;
-  background: var(--violeta-mc);
+  background: var(--violeta-mo);
   border-radius: 10%;
   color: var(--negro);
   font-family: var(--roboto);
@@ -31,7 +32,8 @@
   text-transform: uppercase;
   margin-left: 0.6rem;
 }
-.enviar:hover{
+
+.enviar:hover {
   transform: scale(0.8);
 }
 
@@ -94,27 +96,31 @@ textarea {
 }
 
 @media only screen and (max-width:600px) {
-  .contactame{
- font-size:1.2rem ;
- }
-  .enviar{
- font-size:0.7rem;
- }
- #error,
- #sucess-msg{
-  margin: 0;
- }
+  .contactame {
+    font-size: 1.2rem;
+  }
+
+  .enviar {
+    font-size: 0.7rem;
+  }
+
+  #error,
+  #sucess-msg {
+    margin: 0;
+  }
 }
-@media only screen and (max-width:768px) 
-{
-  .contactame{
-   font-size: 1.2rem ; 
- }
- .enviar{
-   font-size: 0.7rem ;
- }
- #error,
- #sucess-msg{
-  margin: 0;
- }
+
+@media only screen and (max-width:768px) {
+  .contactame {
+    font-size: 1.2rem;
+  }
+
+  .enviar {
+    font-size: 0.7rem;
+  }
+
+  #error,
+  #sucess-msg {
+    margin: 0;
+  }
 }

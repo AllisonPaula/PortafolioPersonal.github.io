@@ -7,14 +7,15 @@
     text-align: center;
     text-transform: capitalize;
 }
-@media only screen and (max-width:600px)
-{
-    .quien-soy__descripcion{
+
+@media only screen and (max-width:600px) {
+    .quien-soy__descripcion {
         font-size: 0.8rem;
     }
 }
+
 @media only screen and (max-width:768px) {
-   .quien-soy__descripcion{
-   font-size: 0.8rem;
-   }
+    .quien-soy__descripcion {
+        font-size: 0.8rem;
+    }
 }

@@ -1,5 +1,5 @@
 .head__link {
-    color: var(--negro);
+    color: var(--violeta-mo);
     font-family: var(--roboto);
     font-size: 0.7rem;
     font-weight: 500;
@@ -7,16 +7,17 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
 @media screen and (max-width:600px) {
-    .head__link{
-        font-size: 0.5rem;   
+    .head__link {
+        font-size: 0.5rem;
         padding: 0.5rem;
     }
 }
+
 @media only screen and (max-width:768px) {
-    .head__link{
-       font-size: 0.5rem;
-       padding: 0.5rem;
+    .head__link {
+        font-size: 0.5rem;
+        padding: 0.5rem;
     }
 }
-
